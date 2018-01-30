@@ -17,3 +17,9 @@ alias leth="geth \
   --rpcapi 'eth,net,web3' \
   --unlock '0' \
   --password '$PASSWORD_FILE'"
+
+alias attach="leth attach $DATADIR/geth.ipc"
+alias mine="leth --mine"
+
+alias reset="leth removedb && \
+  leth init genesis.json"
