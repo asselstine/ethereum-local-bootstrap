@@ -37,3 +37,15 @@ Now reset the db
 ```
 reset
 ```
+
+Now you can start the miner
+
+```
+mine
+```
+
+And when you want to attach run attach
+
+```
+attach
+```
