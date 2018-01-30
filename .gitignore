@@ -1,0 +1,7 @@
+*.passwords
+*.pwds
+*.pwd
+password*
+secret
+localnet
+config.sh
