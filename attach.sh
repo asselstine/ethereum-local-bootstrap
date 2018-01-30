@@ -1,3 +1,3 @@
 #! /bin/sh
 source ./env.sh
-leth attach $IDENTITY/geth.ipc
+leth attach $DATADIR/geth.ipc
