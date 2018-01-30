@@ -21,5 +21,4 @@ alias leth="geth \
 alias attach="leth attach $DATADIR/geth.ipc"
 alias mine="leth --mine"
 
-alias reset="leth removedb && \
-  leth init genesis.json"
+alias reset="leth removedb && leth init genesis.json"
