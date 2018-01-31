@@ -6,6 +6,7 @@ fi
 alias leth="geth \
   --port 3000 \
   --nodiscover \
+  --minerthreads 1 \
   --maxpeers 0 \
   --datadir "$DATADIR" \
   "$ETHERBASE_PARAM" \
